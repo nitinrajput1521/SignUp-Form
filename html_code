@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register form</title>
+  <link href="Register.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+   <main>
+     <div class="container">
+       <h2> Welcome </h2>
+     </div>
+     <div class="head-line">
+      <div class="back">
+        <a href="index.html"><button class="bckbtn">
+          <i class="material-icons" id="back"> arrow_back </i></button></a>
+      </div>
+       <h2> Sign-up </h2> 
+     </div>
+
+  <form>
+    <div class="form_wrapper">
+      <input id="input" type="text" required>
+      <label for="input"> Name </label>
+      <i class="material-icons" id="person"> person </i>
+    </div>
+    <div class="form_wrapper">
+      <input id="input1" type="email" required>
+      <label for="input1">e-mail </label>
+      <i class="material-icons" id="email"> email </i>
+    </div>
+
+    <div class="form_wrapper">
+      <input id="password" type="password" required>
+      <label for="password">Password</label>
+      <i class="material-icons" id="lock">lock</i>
+    </div>
+    <div class="form_wrapper">
+      <input id="password1" type="password" required>
+      <label for="password1">Confirm Password</label>
+      <i class="fa fa-eye custom" id="eye"></i>
+    </div>
+
+
+    <button type="submit">Create account </button>
+  </form>
+
+    <script type="module" src="script.js"></script>
+    </main>
+</body>
+
+</html>
